@@ -1,6 +1,6 @@
 ## Kryptologie
 
-![](https://programmingwiki.de/images/8/8e/Kryptouebersicht.JPG)
+<img src="https://programmingwiki.de/images/8/8e/Kryptouebersicht.JPG" width=50% />
 
 #### Caesar-Verfahren
 * **Verfahren**
@@ -8,7 +8,7 @@
 * **Kryptoanalyse**
     * Ausprobieren aller 25 möglichen Schlüssel
 
-![](https://upload.wikimedia.org/wikipedia/commons/2/2b/Caesar3.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Caesar3.svg" width=50% />
 
 #### Ersetzungsverfahren
 * **Verfahren**
@@ -25,11 +25,11 @@
 * **Kryptoanalyse
     * Kasiski-Test
 
-![](https://assets.serlo.org/legacy/56361f7130cc2_48e4b7591620e60cc59e318f77ba4d6ae5def264.svg)
+<img src="https://assets.serlo.org/legacy/56361f7130cc2_48e4b7591620e60cc59e318f77ba4d6ae5def264.svg" width=50% />
 
 #### One-Time-Pad
-    * Beim One-Time-Pad (deutsch: Verfahren mit Einmalschlüssel) benutzt man ein polyalphabetisches Ersetzungsverfahren (wie z.B. das Vigenère-Verfahren), bei dem der Schlüssel (mindestens) so lang ist wie der Klartext.
-    * Wenn der Schlüssel keine statistischen Auffälligkeiten aufweist, kann ein Angreifer, der nur den Geheimtext kennt, den Schlüssel und den Klartext nicht rekonstruieren.
+* Beim One-Time-Pad (deutsch: Verfahren mit Einmalschlüssel) benutzt man ein polyalphabetisches Ersetzungsverfahren (wie z.B. das Vigenère-Verfahren), bei dem der Schlüssel (mindestens) so lang ist wie der Klartext.
+* Wenn der Schlüssel keine statistischen Auffälligkeiten aufweist, kann ein Angreifer, der nur den Geheimtext kennt, den Schlüssel und den Klartext nicht rekonstruieren.
 
 #### RSA
 * **Verfahren**
