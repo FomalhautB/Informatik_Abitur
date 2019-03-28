@@ -1,7 +1,7 @@
 
-##Datenbanksystem
+## Datenbanksystem
 
-####Kardinalität
+#### Kardinalität
 * **1:1 Beziehung**
     * Jedem Datensatz einer Tabelle wird genau ein Datensatz einer anderen Tabelle zugeordnet und umgekehrt.
 * **1:n Beziehung**
@@ -9,9 +9,9 @@
 * **n:m Beziehung**
     * Jedem Datensatz einer Tabelle werden beliebig viele Datensätze einer anderen Tabelle zugeordnet; umgekehrt werden einem Datensatz ebenfalls beliebig viele Datensätze der anderen Tabelle zugeordnet.
 
-![](http://sibiwiki.de/wiki/images/ER-modell-kardinalitaeten.png =500x)
+![](http://sibiwiki.de/wiki/images/ER-modell-kardinalitaeten.png)
 
-####Drei-Ebenen-Architektur
+#### Drei-Ebenen-Architektur
 * **Die externe Ebene**
     * Die bereitstellt den Benutzern und Anwendungen individuelle Benutzersichten .
 * **Die konzeptionelle Ebene**
@@ -19,9 +19,9 @@
 * **Die interne Ebene**
     * Die physischen Speicherstrukturen und Zugriffsmechanismen einer Datenbank.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Drei-Ebenen-Schema-Architektur.svg/1200px-Drei-Ebenen-Schema-Architektur.svg.png =500x)
+![](http://deacademic.com/pictures/dewiki/51/300px-Drei-Ebenen-Schema-Architektur_svg.png)
 
-####Anomalien
+#### Anomalien
 * **Einfüge(Insert)-Anomalie**
     * Bei einem fehlerhaften oder inkorrekten Datenbankdesign kann es bei der Einfüge-Anomalie passieren, dass Daten gar nicht in die Datenbank übernommen werden, wenn zum Beispiel der Primärschlüssel keinen Wert erhalten hat, oder eine unvollständigen Eingabe von Daten zu Inkonsistenzen führt.
 * **Änderungs(Update)-Anomalie**
@@ -29,7 +29,7 @@
 * **Lösch(Delete)-Anomalie**
     * Bei einer Löschanomalie kann es passieren, dass ein Benutzer einer Datenbank aktiv Informationen löschen will und damit indirekt, aufgrund des fehlerhaften Datenbankdesigns, andere zusammenhängende Informationen parallel mitlöscht.
 
-####Normalisierung
+#### Normalisierung
 * **1. Normalform**
     * Eine Relation befindet sich in der ersten Normalform, wenn alle Attribute nur einfache Attributwerte aufweisen
 * **2. Normalform**
