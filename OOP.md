@@ -13,7 +13,7 @@
 
 #### Konstruktoren
 * Methode zum Erzeugen des Objekts
-* Möglichkeit, Attribute (Instanzvariablen) zu initialisieren
+* Attribute (Instanzvariablen) zu initialisieren
 * Klassenbeziehungen können realisiert werden
 * kein Rückgabewert
 * Name ist Klassenname
