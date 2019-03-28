@@ -43,7 +43,7 @@
     * Best-case: O(1)
     * Average: O(log n)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Binary_search_complexity.svg/440px-Binary_search_complexity.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Binary_search_complexity.svg/440px-Binary_search_complexity.svg.png" width=50% />
 
 #### Sortieren durch Auswählen (Selection Sort)
 * **Verfahren**
@@ -80,7 +80,7 @@
     * Best-case:О(n^2)
     * Average: О(n^2)
 
-![](http://interactivepython.org/runestone/static/pythonds/_images/selectionsortnew.png)
+<img src="http://interactivepython.org/runestone/static/pythonds/_images/selectionsortnew.png" width=50% />
 
 #### Sortieren durch Einfügen (Insertion Sort)
 * **Verfahren**
@@ -113,7 +113,7 @@
     * Best-case: O(n)
     * Average: О(n^2)
 
-![](http://interactivepython.org/courselib/static/pythonds/_images/insertionsort.png)
+<img src="http://interactivepython.org/courselib/static/pythonds/_images/insertionsort.png" width=50% />
 
 #### Quick Sort
 * **Verfahren**
@@ -179,4 +179,4 @@
     * Best-case: O(n log n)
     * Average: O(n log n)
 
-![](http://interactivepython.org/courselib/static/pythonds/_images/partitionA.png)
+<img src="http://interactivepython.org/courselib/static/pythonds/_images/partitionA.png" width=50% />
