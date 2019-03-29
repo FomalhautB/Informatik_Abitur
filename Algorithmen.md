@@ -1,4 +1,4 @@
-## Algorithmus
+## Algorithmen
 
 #### Binäre Suche
 * **Verfahren**
@@ -43,8 +43,6 @@
     * Best-case: O(1)
     * Average: O(log n)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Binary_search_complexity.svg/440px-Binary_search_complexity.svg.png" width=50% />
-
 #### Sortieren durch Auswählen (Selection Sort)
 * **Verfahren**
     * Suche das kleinste Element im Array. Tausche es gegen das erste Element aus.
@@ -80,8 +78,6 @@
     * Best-case:О(n^2)
     * Average: О(n^2)
 
-<img src="http://interactivepython.org/runestone/static/pythonds/_images/selectionsortnew.png" width=50% />
-
 #### Sortieren durch Einfügen (Insertion Sort)
 * **Verfahren**
     * Die Elemente werden ab Index 1 der Reihe nach von links nach rechts betrachtet.
@@ -113,14 +109,12 @@
     * Best-case: O(n)
     * Average: О(n^2)
 
-<img src="http://interactivepython.org/courselib/static/pythonds/_images/insertionsort.png" width=50% />
-
 #### Quick Sort
 * **Verfahren**
     * Wähle das erste Element aus der Menge von Daten aus. Diese Element nennt man auch das Pivot-Element
     * Teile die Menge der Daten in zwei Hälften: Die Daten in der einen Hälfte sind alle kleiner oder gleich dem ausgewählten Element. Die Daten in der anderen Hälfte sind alle größer oder gleich dem ausgewählten Element. Dieser Vorgang wird auch als Partitionierung bezeichnet.
 * **Implementierung**
-    ```
+    ~~~
     /* This function takes last element as pivot,
     places the pivot element at its correct
     position in sorted array, and places all
@@ -154,7 +148,6 @@
         return i+1;
     }
 
-
     /* The main function that implements QuickSort()
       arr[] --> Array to be sorted,
       low  --> Starting index,
@@ -173,10 +166,8 @@
             sort(arr, pi+1, high);
         }
     }
-    ```
+    ~~~
 * **Analysis**
     * Worst-case: O(n^2)
     * Best-case: O(n log n)
     * Average: O(n log n)
-
-<img src="http://interactivepython.org/courselib/static/pythonds/_images/partitionA.png" width=50% />

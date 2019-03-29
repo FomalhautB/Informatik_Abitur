@@ -39,4 +39,4 @@
     * Hat-Beziehung
     * wird in Java durch Erzeugen eines Objekts realisiert
 
-<img src="https://i.stack.imgur.com/bfBSY.png" width=50% />
+![](https://i.stack.imgur.com/bfBSY.png)
