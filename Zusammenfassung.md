@@ -365,7 +365,7 @@
 
     ## Kryptologie
 
-    <img src="https://programmingwiki.de/images/8/8e/Kryptouebersicht.JPG" width="100%" />
+    ![](https://programmingwiki.de/images/8/8e/Kryptouebersicht.JPG)
 
     #### Caesar-Verfahren
     * **Verfahren**
