@@ -56,7 +56,7 @@
         * Aus dem Hashwert darf nicht der originale Inhalt erzeugt werden können.
     * **Kollisionssicherheit**
         * Den unterschiedlichen Texten darf nicht derselbe Hashwert zugeordnet sein.
-    *** Schnelligkeit**
+    * ** Schnelligkeit**
         * Das Verfahren zu Berechnung des Hashwertes muss schnell sein.
 * **MD5**
     * Der Message-Digest Algorithm 5 (MD5) ist eine typische kryptographische Hashfunktion, die aus einer beliebigen Nachricht einen 128-Bit-Hashwert erzeugt.

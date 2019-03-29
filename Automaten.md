@@ -28,7 +28,7 @@
 #### Formale Sprachen
 * **Formale Darstellung (4-Tupel)**
     * Terminalsymbole
-    * Nichtterminale Symbole N
+    * Nichtterminale Symbole
     * Startsymbol
     * Produktionsregeln
 
