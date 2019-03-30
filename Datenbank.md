@@ -40,21 +40,10 @@
     * Eine Relation befindet sich in der zweiten Normalform, wenn
         1. sie in der ersten Normalform ist
         2. jedes Nicht-Schlüssel-Attribut vom Primärschlüssel voll funktional abhängig ist
-    * Schrittfolge zur Herstellung der zweiten Normalform
-        1. Primärschlüssel der gegebenen Relation festlegen, falls dieser nur aus einem Attribut besteht, so liegt bereits 2. NF vor.
-        2. Untersuchung, ob aus Teilschlüsselattributen bereits weitere Attribute folgen. Falls nicht liegt bereits die 2. NF vor. Falls Abhängigkeiten gefunden werden, dann
-        3. Neue Relation bilden, die das Teilschlüsselattribut und alle von diesem abhängigen Nichtschlüsselattribute anthalten. Das Teilschlüsselattribut wird in der neuen Relation der Primärschlüssel.
-        4. Löschen der ausgelagerten Nichtschlüsselattribute in der Ausgangsrelation.
-        5. Vorgang ab 2. wiederholen, bis alle Nichtschlüsselattribute vom gesamten Schlüssel funktional abhängig sind.
 * **3. Normalform**
     * Eine Relation befindet sich in der dritten Normalform, wenn
         1. sie in der zweiten Normalform ist
         2. jedes Nichtschlüsselattribute nicht transitiv vom Primärschlüssel abhängig ist, d.h. aus keinem Nichtschlüsselattribut folgt ein anderes Nichtschlüsselattribut
-    * Schrittfolge zur Herstellung der dritten Normalform
-        1. Untersuchung, ob aus Nichtschlüsselattributen andere Nichtschlüsselattribute folgen. Falls nicht liegt bereits die 3. NF vor. Falls Abhängigkeiten gefunden werden, dann
-        2. Neue Relation bilden, die das Nichtschlüsselattribut (wird nun Primärschlüssel der neuen Relation) und die von ihm abhängigen Attribute enthält.
-        3. Löschen der ausgelagerten Nichtschlüsselattribute mit Ausnahme des Attributes, das in der neuen Relation Primärschlüssel ist.
-        4. Vorgang ab 2. wiederholen, bis keine Abhängigkeiten mehr bestehen
 
 #### Datenschutz
 * **Zweck**
