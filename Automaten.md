@@ -47,9 +47,9 @@ gar keine) des eingeklammerten Wortes.
         1. die Menge der Zustände wird zur Menge der Nichtterminalzeichen
         2. das Eingabealphabet wird zur Menge der Terminalzeichen
         3. der Startzustand wird zur Startvariablen
-        4. der Übergang f (Zi, zj, Zk) = Zk wird zur Produktionsregel <Zi> -> zj <Zk> jeder Endzustand Ze liefert die Produktionsregel <Ze> -> epsilon
+        4. der Übergang f (Zi, zj, Zk) = Zk wird zur Produktionsregel Zi -> zj Zk jeder Endzustand Ze liefert die Produktionsregel Ze -> epsilon
         * Ohne Verwendung vonepsilon
-        5. Für alle Endzustände Ze ersetzt man <Zi> -> zj <Ze> durch <Zi> -> zj
+        5. Für alle Endzustände Ze ersetzt man Zi -> zj Ze durch Zi -> zj
 
 #### Kellerautomat
 * Der Kellerautomat ist ein endlicher Automat, der um einen Kellerspeicher erweitert wurde.
