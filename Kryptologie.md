@@ -40,7 +40,7 @@
 * **Verschlüsselung**
     * c = m^e mod N
 * **Entschlüsselung**
-    * cd mod N =  m
+    * c^d mod N = m
 
 #### Schutzziele
 * **Vertraulichkeit**
